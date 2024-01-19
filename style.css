@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2364AA;
+}
+
+#startButton {
+    border: 0px;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#startButton a:hover,
+button:hover{
+    background-color: #FEC601;
+}
+
+.gameContainer {
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.petChoice button{
+    border: none;
+    font: 15px;
+    padding: 1rem;
+    width: 15rem;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+#schnappiContainer {
+    display: none;
+    background-color: #FEC601;
+    width: 80%;
+    height: 70%;
+}
+
+#schnappiContainer img {
+    padding: 1rem;
+    display: flexbox;
+}
+
+#healthBarContainer {
+    width: 90%;
+    background-image: linear-gradient(to right, rgb(188, 17, 17), rgb(241, 213, 0));
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#healthBar {
+    height: 20px;
+    width: 100%;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    transition: width 0.3s ease-in-out;
+    text-align: left; padding-left: 10px;
+}
